@@ -10,7 +10,7 @@
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE="nerdfont-complete"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status context os_icon dir dir_writable vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(background_jobs virtualenv rbenv history time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(background_jobs virtualenv anaconda history time vi_mode)
 
 # OS_ICON
 POWERLEVEL9K_OS_ICON_BACKGROUND="white"
@@ -37,6 +37,12 @@ POWERLEVEL9K_TIME_FOREGROUND="black"
 # VCS
 POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='yellow'
 POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='yellow'
+
+# VI MODE
+POWERLEVEL9K_VI_MODE_INSERT_FOREGROUND='black'
+POWERLEVEL9K_VI_MODE_INSERT_BACKGROUND='cyan'
+POWERLEVEL9K_VI_MODE_NORMAL_FOREGROUND='black'
+POWERLEVEL9K_VI_MODE_NORMAL_BACKGROUND='green'
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -121,6 +127,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+bindkey -v
+
+# ctrl-r starts searching history backward
+bindkey '^r' history-incremental-search-backward
+
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
 fi

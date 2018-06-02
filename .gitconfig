@@ -1,0 +1,8 @@
+[alias]
+[alias]
+	lg = log --all --decorate --oneline --graph
+	st = status
+	br = branch -a
+[user]
+	name = Tran Ngoc Quy
+	email = motmaytinh@gmail.com
