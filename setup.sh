@@ -37,13 +37,24 @@ fi
 if ! command -v pip >/dev/null 2>&1; then
 	sudo apt install python-pip
 else
+	printf "${GREEN}Pip installed.\n"
 fi
 
-if [ ! -d /usr/share/themes/{Adapta,Adapta-Eta,Adapta-Nokto,Adapta-Nokto-Eta}]; then
+if [ ! -d /usr/share/themes/Adapta ]; then
 	printf "${YELLOW}Adapta is not installed!${NORMAL} Installing Adapta!\n"
 	sudo add-apt-repository ppa:tista/adapta
 	sudo apt-get update
 	apt get adapta
 else
 	printf "${GREEN}Adapta installed.\n"
+fi
+
+if ! command -v google-chrome >/dev/null 2>&1; then
+	printf "${YELLOW}Google Chrome is not installed!${NORMAL} Installing Google Chrome!\n"
+	wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+	sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+	sudo apt-get update
+	sudo apt-get install google-chrome
+else
+	printf "${GREEN}Google Chrome installed.\n"
 fi
