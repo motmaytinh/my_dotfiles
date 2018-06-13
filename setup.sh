@@ -26,11 +26,24 @@ if [ ! -d ~/.vim ]; then
 	printf "${YELLOW}Vim GUI is not installed!${NORMAL} Installing Vim GUI!\n"
 	mkdir -p ~/.vim/pack/themes/opt 
 	mkdir -p ~/.vim/colors
-	apt remove -y vim-tiny
+	apt remove vim-tiny
 	apt update
-	apt install -y vim
+	apt install vim
 	echo ".vim created"
 else
 	printf "${GREEN}Vim GUI installed.\n"
 fi
 
+if ! command -v pip >/dev/null 2>&1; then
+	sudo apt install python-pip
+else
+fi
+
+if [ ! -d /usr/share/themes/{Adapta,Adapta-Eta,Adapta-Nokto,Adapta-Nokto-Eta}]; then
+	printf "${YELLOW}Adapta is not installed!${NORMAL} Installing Adapta!\n"
+	sudo add-apt-repository ppa:tista/adapta
+	sudo apt-get update
+	apt get adapta
+else
+	printf "${GREEN}Adapta installed.\n"
+fi
