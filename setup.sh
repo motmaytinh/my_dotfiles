@@ -17,6 +17,7 @@ if ! command -v zsh >/dev/null 2>&1; then
 	wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 	sudo git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 	wget https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf
+	wget -P ~ https://github.com/motmaytinh/my_config/blob/master/.zshrc
 else
     printf "${GREEN}Zsh installed.\n"
 fi
@@ -29,6 +30,7 @@ if [ ! -d ~/.vim ]; then
 	apt remove vim-tiny
 	apt update
 	apt install vim
+	wget -P ~ https://github.com/motmaytinh/my_config/blob/master/.vimrc
 	echo ".vim created"
 else
 	printf "${GREEN}Vim GUI installed.\n"
