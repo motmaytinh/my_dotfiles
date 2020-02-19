@@ -20,3 +20,4 @@ My setting for zsh, vim, git, etc.
 * [Zsh autosuggeston](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 * [Zsh syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 * [Powerlevel10k setup](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+* [Hack font for programming](https://sourcefoundry.org/hack/)
