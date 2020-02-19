@@ -17,5 +17,6 @@ My setting for zsh, vim, git, etc.
 * [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 * [fasd](https://github.com/clvv/fasd/wiki/Installing-via-Package-Managers#debian--ubuntu)
   * Remember to set `eval` in rc file
-* [Zsh autosuggeston](https://software.opensuse.org/download.html?project=shells%3Azsh-users%3Azsh-autosuggestions&package=zsh-autosuggestions)
-* [Powerlevel10k setup](git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k)
+* [Zsh autosuggeston](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+* [Zsh syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
+* [Powerlevel10k setup](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
