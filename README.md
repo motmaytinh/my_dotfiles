@@ -8,6 +8,7 @@ My setting for zsh, vim, git, etc.
 * Tilix:
   * Install from Ubuntu store
   * [Fix vte error](https://gnunn1.github.io/tilix-web/manual/vteconfig/)
+  * Set Tilix as default terminal: `sudo update-alternatives --config x-terminal-emulator`
 
 * Add ssh key:
   * Copy id_rsa to `/home/you/.ssh/id_rsa`
