@@ -14,6 +14,8 @@ My setting for zsh, vim, git, etc.
   * Copy id_rsa to `/home/you/.ssh/id_rsa`
   * [Error permissions are too open](https://stackoverflow.com/questions/9270734/ssh-permissions-are-too-open-error)
 
+* vifm: `sudo apt install vifm`
+
 * [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 * [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 * [fasd](https://github.com/clvv/fasd/wiki/Installing-via-Package-Managers#debian--ubuntu)
