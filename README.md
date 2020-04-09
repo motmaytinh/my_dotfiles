@@ -15,6 +15,7 @@ My setting for zsh, vim, git, etc.
   * [Error permissions are too open](https://stackoverflow.com/questions/9270734/ssh-permissions-are-too-open-error)
 
 * vifm: `sudo apt install vifm`
+* fzf: `sudo apt install fzf`
 
 * [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 * [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
