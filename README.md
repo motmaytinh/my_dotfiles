@@ -5,6 +5,7 @@ My setting for zsh, vim, git, etc.
 # Manual install stuff
 
 * Visual studio code: Ubuntu store
+  * `ext install CoenraadS.bracket-pair-colorizer-2` 
 * Tilix:
   * Install from Ubuntu store
   * [Fix vte error](https://gnunn1.github.io/tilix-web/manual/vteconfig/)
