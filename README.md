@@ -6,6 +6,7 @@ My setting for zsh, vim, git, etc.
 
 * Visual studio code: Ubuntu store
   * `ext install CoenraadS.bracket-pair-colorizer-2` 
+  * `ext install TabNine.tabnine-vscode`
 * Tilix:
   * Install from Ubuntu store
   * [Fix vte error](https://gnunn1.github.io/tilix-web/manual/vteconfig/)
