@@ -8,6 +8,7 @@ My setting for zsh, vim, git, etc.
   * `ext install CoenraadS.bracket-pair-colorizer-2` 
   * `ext install TabNine.tabnine-vscode`
   * [Fira Code](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)
+  * If `code` command doesn't work, do this: `sudo ln -s /snap/bin/code /usr/local/bin/code`
 
 * Tilix:
   * Install from Ubuntu store
