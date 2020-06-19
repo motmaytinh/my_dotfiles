@@ -30,3 +30,7 @@ My setting for zsh, vim, git, etc.
 * [Zsh syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 * [Powerlevel10k setup](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 * [Hack font for programming](https://sourcefoundry.org/hack/)
+
+* pbcopy: `sudo apt install xclip xsel`
+  * `alias pbcopy='xclip -selection clipboard`
+  * `alias pbpaste='xclip -selection clipboard -o`
