@@ -34,3 +34,5 @@ My setting for zsh, vim, git, etc.
 * pbcopy: `sudo apt install xclip xsel`
   * `alias pbcopy='xclip -selection clipboard`
   * `alias pbpaste='xclip -selection clipboard -o`
+
+* Nautilus shortcut: Settings > Shortcuts > Home > Win + E
