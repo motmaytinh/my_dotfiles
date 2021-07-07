@@ -37,3 +37,5 @@ My setting for zsh, vim, git, etc.
   * `alias pbpaste='xclip -selection clipboard -o`
 
 * Nautilus shortcut: Settings > Shortcuts > Home > Win + E
+
+* Nektar GX61 install: `sudo apt install qjackctl`
