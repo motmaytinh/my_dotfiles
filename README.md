@@ -19,11 +19,11 @@ My setting for zsh, vim, git, etc.
   * Copy id_rsa to `/home/you/.ssh/id_rsa`
   * [Error permissions are too open](https://stackoverflow.com/questions/9270734/ssh-permissions-are-too-open-error)
 
+* [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+* git: `sudo apt install git-all`
+* [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 * vifm: `sudo apt install vifm`
 * fzf: `sudo apt install fzf`
-
-* [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
-* [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 * [fasd](https://github.com/clvv/fasd/wiki/Installing-via-Package-Managers#debian--ubuntu)
   * Remember to set `eval` in rc file
 * [Zsh autosuggeston](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
