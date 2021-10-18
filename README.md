@@ -17,7 +17,7 @@ My setting for zsh, vim, git, etc.
 
 * Add ssh key:
   * Copy id_rsa to `/home/you/.ssh/id_rsa`
-  * [Error permissions are too open](https://stackoverflow.com/questions/9270734/ssh-permissions-are-too-open-error)
+  * `chmod 400 ~/.ssh/id_rsa`
 
 * [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 * git: `sudo apt install git-all`
