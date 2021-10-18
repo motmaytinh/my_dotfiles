@@ -38,4 +38,6 @@ My setting for zsh, vim, git, etc.
 
 * Nautilus shortcut: Settings > Shortcuts > Home > Win + E
 
-* Nektar GX61 install: `sudo apt install qjackctl`
+* Gnome shell extensions:
+  * `sudo apt install gnome-shell-extensions`
+  * Clipboard indicator
