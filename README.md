@@ -31,6 +31,7 @@ My setting for zsh, vim, git, etc.
 * [Powerlevel10k setup](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 * [Hack font for programming](https://sourcefoundry.org/hack/)
 * [Ibus Bamboo](https://github.com/BambooEngine/ibus-bamboo#ubuntu-v%C3%A0-c%C3%A1c-distro-t%C6%B0%C6%A1ng-t%E1%BB%B1)
+* [Cheat](https://github.com/cheat/cheat)
 
 * pbcopy: `sudo apt install xclip xsel`
   * `alias pbcopy='xclip -selection clipboard`
